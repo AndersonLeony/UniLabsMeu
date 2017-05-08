@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">NP2 - Usando_Realm</string>
+    <string name="title_activity_adm">AdmActivity</string>
+    <string name="sp_deletarSala_ListaBlocos">
+        <item>Sim</item>
+        <item>Não</item>
+    </string>
+    <string-array name="listaHorarios">
+        <item>AB - MANHÃ (7:30-9:10)</item>
+        <item>CD - MANHÃ (9:30-11:10)</item>
+        <item>EF - MANHÃ (11:20-13:00)</item>
+        <item>AB - TARDE (13:30-15:10)</item>
+        <item>CD - TARDE (15:30-17:10)</item>
+        <item>EF - TARDE (17:20-19:00)</item>
+        <item>AB - NOITE (19:00-20:40)</item>
+        <item>CD - NOITE (21:00-22:40)</item>
+    </string-array>
+    <string-array name="numSala">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+    </string-array>
+    <string-array name="qtdeComp">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+    </string-array>
+
+    <string-array name="listaBlocos">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--ADM - TITULOS DA BARRA DE MENUS!-->
+    <string name="title_activity_tela_menu_adm">TelaMenuADMActivity</string>
+    <string name="title_adicionarBloco">Adicionar Bloco</string>
+    <string name="title_adicionarUsuario">Adicionar Usuario</string>
+    <string name="title_addDisciplina">Add/Del Discip.</string>
+    <string name="title_deletarSala">Deletar Sala</string>
+    <string name="title_deletarBloco">Deletar Bloco</string>
+    <string name="title_agendarAula">Agendar Aula</string>
+
+    <!--US - TITULOS DA BARRA DE MENUS!-->
+    <string name="title_us_nv_visualizar">Tipo de Visualizacao</string>
+    <string name="title_us_nv_alterarDados">Alterar Dados</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_teste">TesteActivity</string>
+
+</resources>

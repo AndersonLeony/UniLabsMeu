@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leony.np2_usando_realm.TelaLoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/edt_addSenhaTelaLogin"
+            android:layout_alignRight="@+id/edt_addSenhaTelaLogin"
+            android:layout_alignEnd="@+id/edt_addSenhaTelaLogin"
+            android:layout_marginRight="13dp"
+            android:layout_marginEnd="13dp">
+
+            <TextView
+                android:id="@+id/txt_esqueceuSenha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txt_realizarCadastro"
+                android:layout_alignStart="@+id/txt_realizarCadastro"
+                android:layout_below="@+id/edt_addSenhaTelaAddUsuario"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Esqueceu Senha?"
+
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_alterarCadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/txt_realizarCadastro"
+                android:layout_alignRight="@+id/txt_realizarCadastro"
+                android:layout_below="@+id/txt_realizarCadastro"
+                android:padding="5dp"
+                android:text="Alterar Cadastro"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_realizarCadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btn_entrar"
+                android:layout_alignEnd="@+id/edt_addSenhaTelaAddUsuario"
+                android:layout_alignRight="@+id/edt_addSenhaTelaAddUsuario"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Realizar Cadastro"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="Unilabs"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Login"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_addLoginTelaLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textView12"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_addLoginTelaLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="Senha"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_addSenhaTelaLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/textView14"
+            android:layout_alignLeft="@+id/edt_addLoginTelaLogin"
+            android:layout_alignStart="@+id/edt_addLoginTelaLogin" />
+
+        <Button
+            android:id="@+id/btn_entrar"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:text="Entrar"
+            android:layout_below="@+id/edt_addSenhaTelaLogin"
+            android:layout_toLeftOf="@+id/textView14"
+            android:layout_toStartOf="@+id/textView14" />
+    </RelativeLayout>
+
+</RelativeLayout>

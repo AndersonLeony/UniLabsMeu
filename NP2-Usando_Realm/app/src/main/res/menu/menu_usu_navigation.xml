@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/us_nv_visualizar"
+        android:checked="true"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_us_nv_visualizar" />
+    <item
+        android:id="@+id/us_nv_alterarDados"
+        android:checked="true"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_us_nv_alterarDados" />
+
+    <item
+        android:id="@+id/us_Branco"
+        android:checked="false"
+        android:title="" />
+
+
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nv_deletarBloco"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_deletarBloco" />
+
+    <item
+        android:id="@+id/nv_deletarSala"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_deletarSala" />
+
+
+    <item
+        android:id="@+id/nv_agendarAula"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_agendarAula" />
+
+</menu>
